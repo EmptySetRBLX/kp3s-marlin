@@ -3425,7 +3425,7 @@
  // 320x240, 2.4", FSMC Display From MKS
  // Usually paired with MKS Robin Nano V1.2
  //
- #define MKS_ROBIN_TFT24
+ //#define MKS_ROBIN_TFT24
  
  //
  // 320x240, 2.8", FSMC Display From MKS
