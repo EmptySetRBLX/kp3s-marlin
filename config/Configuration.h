@@ -3107,13 +3107,13 @@
  // 320x240, 2.4", FSMC Display From MKS
  // Usually paired with MKS Robin Nano V1.2
  //
- #define MKS_ROBIN_TFT24
+ //#define MKS_ROBIN_TFT24
  
  //
  // 320x240, 2.8", FSMC Display From MKS
  // Usually paired with MKS Robin Nano V1.2
  //
- //#define MKS_ROBIN_TFT28
+ #define MKS_ROBIN_TFT28
  
  //
  // 320x240, 3.2", FSMC Display From MKS
@@ -3224,7 +3224,7 @@
   *   TFT_ROTATE_270, TFT_ROTATE_270_MIRROR_X, TFT_ROTATE_270_MIRROR_Y,
   *   TFT_MIRROR_X, TFT_MIRROR_Y, TFT_NO_ROTATION
   */
- #define TFT_ROTATION TFT_ROTATE_270
+ #define TFT_ROTATION TFT_ROTATE_180
  
  //=============================================================================
  //============================  Other Controllers  ============================
