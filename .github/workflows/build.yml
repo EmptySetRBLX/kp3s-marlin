@@ -51,11 +51,11 @@ jobs:
       - name: Run pio
         run: |
           cd Marlin
-          pio run -e mks_robin_nano_v1v2
+          pio run -e mks_robin_nano_v1v2_maple
       - name: Copy built firmware
         run: |
           mkdir build
-          cp Marlin/.pio/build/mks_robin_nano_v1v2/Robin_nano35.bin build/robin_nano.bin
+          cp Marlin/.pio/build/mks_robin_nano_v1v2_maple/Robin_nano35.bin build/robin_nano.bin
           echo "RELEASE_NAME=$(git describe --tags)-$(git -C Marlin rev-parse --short HEAD)" >> "$GITHUB_ENV"
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v4.3.1
