@@ -3209,7 +3209,7 @@
  // #define TFT_LVGL_UI
  
  #if ENABLED(TFT_COLOR_UI)
-   #define TFT_SHARED_IO    // SPI is shared between TFT display and other devices. Disable async data transfer
+   //#define TFT_SHARED_IO    // SPI is shared between TFT display and other devices. Disable async data transfer
  #endif
  
  #if ENABLED(TFT_LVGL_UI)
