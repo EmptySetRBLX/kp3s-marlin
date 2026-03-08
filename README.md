@@ -1,13 +1,14 @@
 # Marlin firmware for Kingroon KP3S 3.0
-## Warning: this build is currently bugged
-Try https://github.com/mechano/Kingroon_KP3S_Marlin_Firmware \
-More info: https://github.com/konradmb/kp3s-marlin/issues/1#issuecomment-2646622284
+
+Modified version of https://github.com/konradmb/kp3s-marlin
 
 ---
-Built from source, straight from development branch
+Built from source using lts-2.1.2
+
+Builds using maple to avoid DMA sd card read issue
 
 ## Download
-Download `robin_nano.bin` file from [Releases](https://github.com/konradmb/kp3s-marlin/releases).
+Download `robin_nano.bin` file from [Releases](https://github.com/EmptySetRBLX/kp3s-marlin/releases).
 
 ### Installing
 Put `robin_nano.bin` file to the root of SD card, turn on printer and wait for flashing to complete.
@@ -24,4 +25,4 @@ You can always go back to the stock firmware by dowloading it from Kingroon webs
 - Bezier curve and arc GCode support.
 - Print most-recent file pop-up on SD card plug.
 - Plug heatsink fan to PB0 pin and get fan auto-shutdown when hotend is cool.
-- And more… (checkout config files in [/config](https://github.com/konradmb/kp3s-marlin/tree/master/config) directory) 
+- And more… (checkout config files in [/config](https://github.com/EmptySetRBLX/kp3s-marlin/tree/master/config) directory) 
