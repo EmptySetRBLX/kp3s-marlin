@@ -7,6 +7,8 @@ Built from source using lts-2.1.2
 
 Builds using maple to avoid DMA sd card read issue
 
+Will need to rotate the screen, or just use the screen from the side.
+
 ## Download
 Download `robin_nano.bin` file from [Releases](https://github.com/EmptySetRBLX/kp3s-marlin/releases).
 
@@ -15,7 +17,6 @@ Put `robin_nano.bin` file to the root of SD card, turn on printer and wait for f
 You can always go back to the stock firmware by dowloading it from Kingroon website.
 
 ## Features
-- No need to physically rotate screen, the rotation is set correctly in software.
 - Manual mesh bed leveling with 7x7 grid. Why buy 3D Touch when you can do the same by yourself?
 - Linear Advance
 - Pre-calibrated E-steps. I've set it to 833.7 steps/mm (factory is 768). Change it in menu if it doesn't work for you.
