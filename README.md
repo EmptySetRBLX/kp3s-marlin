@@ -24,6 +24,5 @@ You can always go back to the stock firmware by dowloading it from Kingroon webs
 - MPC hotend temperature control (bed is still PID). Zero overshoot, maintains precise set-point compared. You can run auto-tune in menu if it doesn't work correctly.
 - Nozzle park, pause and filament change.
 - Bezier curve and arc GCode support.
-- Print most-recent file pop-up on SD card plug.
 - Plug heatsink fan to PB0 pin and get fan auto-shutdown when hotend is cool.
 - And more… (checkout config files in [/config](https://github.com/EmptySetRBLX/kp3s-marlin/tree/master/config) directory) 
